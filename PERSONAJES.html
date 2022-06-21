@@ -2,20 +2,24 @@
 <html>
 <head>
     <title>Personajes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css"
     href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body background="IMAGENES/Background.jpg" class="background">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i> </a>
 <header class="textheader">
-        <h1><li><a href="index.html" class="textheader"><span id="Los simuladores">LOS SIMULADORES</span></a></li></h1>
-        <h2>PERSONAJES</h2>
+            <h1><li><a href="index.html" class="textheader"><span id="Los simuladores">LOS SIMULADORES</span></a></li></h1>
+            <h2>PERSONAJES</h2>
 </header>
-<nav>
-    <ul>
-        <li><a href="PERSONAJES.html" class="enlace"><span id="Personajes">Personajes</span></a></li>
-        <li><a href="TRAMA.html" class="enlace"><span id="Trama">Trama</span></a></li>
-        <li><a href="CURIOSIDADES.html" class="enlace"><span id="Curiosidades">Curiosidades</span></a></li>
-        <li><a href="GALERIA.html" class="enlace"><span id="Galeria">Galeria</span></a></li> 
+<nav class="superior" id="navegador">
+    <ul id="mainmenu" class="mainmenu">
+        <li class="mainmenuitem"><a href="PERSONAJES.html" class="enlace"><span id="Personajes">Personajes</span></a></li>
+        <li class="mainmenuitem"><a href="TRAMA.html" class="enlace"><span id="Trama">Trama</span></a></li>
+        <li class="mainmenuitem"><a href="CURIOSIDADES.html" class="enlace"><span id="Curiosidades">Curiosidades</span></a></li>
+        <li class="mainmenuitem"><a href="GALERIA.html" class="enlace"><span id="Galeria">Galeria</span></a></li>
     </ul>
 </nav>
 <article class="persclass">
@@ -50,4 +54,14 @@
         </div>
     </footer>
 </body>
+<script type="text/javascript">
+    function myFunction() {
+        let x = document.getElementById('navegador')
+        if (x.className !== 'superior responsive'){
+            x.className = 'superior responsive';
+        } else {
+            x.className = 'superior';
+        }
+    }
+</script>
 </html>
