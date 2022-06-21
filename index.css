@@ -187,7 +187,13 @@ button {
 @media screen and (max-width: 480px) {
 nav.superior ul {display: none;}
 .icon {display: inline;
-	float: left;
+	position: absolute;
+	top: 0.5rem;
+	left: 1rem;
+	cursor: pointer;
+	color: black;
+	width: 40px;
+	transition: transform 0.3;
 }
 
 header div, header a {
@@ -207,6 +213,44 @@ nav.responsive ul {
 	margin:0;
 	padding:10;
 	text-align: center;
+}
+
+.superior {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mainmenu {
+	display: block;
+	position: fixed;
+	width: 300px;
+	height: 100vh;
+	top: 50px;
+	background: rgba(0, 0, 0, 95);
+	text-align: center;
+	transition: all .5s;
+	left: 0;
+	right: 0;
+	background-color: E74C3C;
+}
+
+.mainmenuitem {
+	display: flex;
+	justify-content: center;
+
+}
+
+.enlace{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size: 40px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .background{
@@ -235,7 +279,7 @@ h2 {
 }
 
 .ptrama {
-	font-size: 20px;
+	font-size: 15px;
 	font-family: monospace;
 	text-align: justify;
 	width: 100%;
@@ -243,7 +287,7 @@ h2 {
 }
 
 .ctrama {
-	display: flex;
+	display: block;
 }
 
 .pcurio {
@@ -268,20 +312,6 @@ nav ul li {
     display: inline-block;
 }
 
-.enlace{
-	width: 10%;
-	height: 30px;
-	background-color: E74C3C;
-	text-decoration: none;
-	text-align: center;
-	font-size: 1.3vw;
-	padding: 10px 40px;
-	color: white;
-	margin:30px;
-	font-weight: 600;
-	border-radius: 10px
-}
-
 .imgmain{
 	height: 300px;
 	width: 400px;
@@ -295,7 +325,7 @@ nav ul li {
 }
 
 .imgtrama {
-	height: 260px;
+	height: 130px;
 }
 
 section {
@@ -390,7 +420,6 @@ textarea {
 button {
 	width: 30%;
 }
-.superior {
-	padding: 0px;
-}
+
+
 }
