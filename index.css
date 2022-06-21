@@ -291,15 +291,19 @@ h2 {
 }
 
 .pcurio {
-	font-size: 30px;
+	font-size: 15px;
 	font-family: monospace;
 	text-align: justify;
 }
 
 .imgcurio {
-	height: 300;
+	height: 175px;
 	display: inline;
 	justify-content: center;
+}
+
+#ccurio {
+	display: inline-block;
 }
 
 .textheaderint{
@@ -319,8 +323,8 @@ nav ul li {
 }
 
 .imgpers{
-	height: 220px;
-	display: inline;
+	height: 150px;
+	display: block;
 	justify-content: center;
 }
 
@@ -343,7 +347,7 @@ article {
 }
 
 .persclass {
-	display: flex;
+	display: inline-block;
 }
 
 .tpers{
@@ -351,7 +355,7 @@ article {
 	background: grey;
 	text-decoration: none;
 	text-align: center;
-	font-size: 1.1vw;
+	font-size: 5px;
 	padding: 10px 40px;
 	color: black;
 	margin:30px;
@@ -396,7 +400,7 @@ article {
 }
 
 .imggaleria{
-	height: 235px;
+	height: 200px;
 	display: inline;
 	justify-content: center;
 }
@@ -407,18 +411,18 @@ article {
 }
 
 input {
-	width: 30%;
+	width: 70%;
 	text-align: justify;
 }
 
 textarea {
-	width: 30%;
+	width: 70%;
 	height: 20%;
 	text-align: justify;
 }
 
 button {
-	width: 30%;
+	width: 70%;
 }
 
 
