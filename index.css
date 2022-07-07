@@ -204,7 +204,7 @@ nav.superior ul {display: none;}
 	left: 1rem;
 	cursor: pointer;
 	color: black;
-	width: 40px;
+	width: 5%;
 	transition: transform 0.3;
 }
 
@@ -237,9 +237,9 @@ nav.responsive ul {
 .mainmenu {
 	display: block;
 	position: fixed;
-	width: 300px;
-	height: 100vh;
-	top: 50px;
+	width: 10%;
+	height: 100%;
+	top: 10%;
 	background: rgba(0, 0, 0, 95);
 	text-align: center;
 	transition: all .5s;
@@ -258,7 +258,7 @@ nav.responsive ul {
 	color: white;
 	text-transform: uppercase;
 	text-decoration: underline;
-	font-size: 40px;
+	font-size: 20px;
 
 	display: flex;
 	flex-direction: column;
@@ -412,7 +412,8 @@ article {
 }
 
 .imggaleria{
-	height: 200px;
+	width: 100%;
+	height: auto;
 	display: inline;
 	justify-content: center;
 }
