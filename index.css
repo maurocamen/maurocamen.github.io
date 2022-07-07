@@ -280,14 +280,15 @@ nav.responsive ul {
 h1 {
 	font-size: 40px;
 	list-style: none;
-	height: 25px;
-	padding-top: 0px;
+	height: 40%;
+	padding-top: 0;
 }
 
 h2 {
 	font-family: monospace;
 	font-size: 22px;
 	list-style: none;
+	height: 40%;
 }
 
 .ptrama {
