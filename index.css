@@ -278,7 +278,7 @@ nav.responsive ul {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 30px;
 	list-style: none;
 	height: 40%;
 	padding-top: 0;
@@ -286,7 +286,7 @@ h1 {
 
 h2 {
 	font-family: monospace;
-	font-size: 22px;
+	font-size: 14px;
 	list-style: none;
 	height: 40%;
 }
