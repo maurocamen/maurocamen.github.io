@@ -310,7 +310,7 @@ h2 {
 }
 
 .imgcurio {
-	height: 175px;
+	height: 70%;
 	display: inline;
 	justify-content: center;
 }
@@ -342,7 +342,8 @@ nav ul li {
 }
 
 .imgtrama {
-	height: 130px;
+	height: 70%;
+	width: auto;
 }
 
 section {
