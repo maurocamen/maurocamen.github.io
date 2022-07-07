@@ -310,7 +310,8 @@ h2 {
 }
 
 .imgcurio {
-	height: 35%;
+	width: 400px;
+	height: auto;
 	display: inline;
 	justify-content: center;
 }
